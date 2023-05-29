@@ -1,0 +1,12 @@
+func test35(num: Int) -> Bool {
+    if num % 3 == 0 || num % 5 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+print(test35(num: 33)) 
+print(test35(num: 100))
+print(test35(num: 15)) 
+print(test35(num: 17)) 
